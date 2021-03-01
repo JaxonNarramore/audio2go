@@ -1,0 +1,64 @@
+.nav {
+    height: 110px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: rgb(59, 59, 59);
+    line-height: 10px;
+    color: white;
+}
+
+.needquote {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.call {
+    font-size: 23px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+}
+
+.or {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.quote {
+    font-size: 23px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+.naq {
+    text-align: center;
+    font-size: 20px;
+}
+
+.naq-container {
+    margin-left: 645px;
+    line-height: 20px;
+}
+
+.container {
+    margin-left: 20px;
+    width: max-content;
+}
+
+.link {
+    text-decoration: none;
+}
+.quotelink {
+    text-decoration: none;
+}
