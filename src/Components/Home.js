@@ -3,6 +3,7 @@ import Nav from './Nav'
 import Header from './Header'
 import Values from './Values'
 import Contact from './Contact'
+import Brands from './Brands'
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
             <Nav />
             <Header />
             <Values />
+            <Brands />
             <Contact />
         </div>
     )

@@ -1,0 +1,22 @@
+.grid-image {
+    width: 200px;
+}
+
+.brand-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.brand {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 320px;
+    height: 160px;
+    padding: 0px;
+}
