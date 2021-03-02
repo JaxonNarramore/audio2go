@@ -1,0 +1,38 @@
+.ro-cuo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ro-cuo-div {
+    text-align: center;
+}
+
+.phone {
+
+}
+
+.email {
+
+}
+
+.social {
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.instagram {
+    font-size: 30px;
+}
+
+.facebook {
+    font-size: 30px;
+}
