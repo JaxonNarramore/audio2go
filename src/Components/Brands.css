@@ -1,5 +1,5 @@
 .grid-image {
-    width: 200px;
+    width: 250px;
     height: 150px;
 }
 
@@ -17,6 +17,8 @@
 .brand {
     text-align: center;
     background-color: grey;
+    padding-bottom: 80px;
+    padding-top: 30px;
 }
 
 .grid-item {
@@ -29,3 +31,6 @@
     justify-content: center;
 }
 
+.top-brands {
+    padding-bottom: 30px;
+}
