@@ -5,6 +5,7 @@ import Values from './Values'
 import Contact from './Contact'
 import Brands from './Brands'
 import Services from './Services'
+import RecentInstalls from './RecentInstalls'
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <Nav />
             <Header />
             <Values />
+            <RecentInstalls />
             <Services />
             <Brands />
             <Contact />
