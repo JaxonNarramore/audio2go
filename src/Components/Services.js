@@ -45,20 +45,20 @@ const data = [
 export default function Services() {
     const [toggle, setToggle] = useState('1')
     return (
-        <div>
-            <p>Our Services</p>
+        <div className='services-container'>
+            <p className='os'>Our Services</p>
             {data.map(({ title, title2, title3, text, text2, text3, text4, key, img, img2, img3, img4 }) => {
                 return (
                     <div className="main">
-                        <div className='titlez'>
-                            <div>
-                                <h2 className='title' onClick={() => setToggle(key)}>{title} </h2>
+                        <div>
+                            <div className='marine'>
+                                <h2 className='title marine' onClick={() => setToggle(key)}>{title} </h2>
                             </div>
                             <div>
-                                <h2 className='title' onClick={() => setToggle(key)}>{title2} </h2>
+                                <h2 className='title auto' onClick={() => setToggle(key)}>{title2} </h2>
                             </div>
                             <div>
-                                <h2 className='title' onClick={() => setToggle(key)}>{title3} </h2>
+                                <h2 className='title home' onClick={() => setToggle(key)}>{title3} </h2>
                             </div>
                         </div>
                         {toggle === key ? (

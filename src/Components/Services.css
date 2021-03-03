@@ -1,14 +1,45 @@
 .photo {
-    width: 200px;
+    width: 280px;
+    padding: 5px;
 }
 
 .images {
     display: flex;
     justify-content: center;
     align-content: center;
+    padding-top: 60px;
 }
 
 .text {
     text-align: center;
-    width: 200px;
+    width: 280px;
+}
+
+.marine {
+    position: absolute;
+    left: 160px;
+
+}
+
+.auto {
+    position: absolute;
+    top: 1140px;
+    left: 620px;
+}
+
+.home {
+    position: absolute;
+    top: 1140px;
+    left: 930px;
+}
+
+.os {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.services-container {
+    background-color: aqua;
 }
