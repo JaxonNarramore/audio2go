@@ -1,3 +1,14 @@
 .photo {
     width: 200px;
 }
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.text {
+    text-align: center;
+    width: 200px;
+}
