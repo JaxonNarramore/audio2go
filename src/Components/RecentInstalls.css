@@ -1,15 +1,10 @@
 .sliderimg{
     height: 500px;
-    object-fit: cover;
-}
-
-.ri-container {
-
+    width: 380px;
 }
 
 .carousel {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
