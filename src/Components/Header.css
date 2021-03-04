@@ -1,0 +1,22 @@
+.header-container {
+    background-image: url(header14.jpg);
+    background-size: cover;
+    /* height: 86vh; */
+    height: 148vh;
+    color: whitesmoke;
+}
+
+.a2g {
+    font-size: 200px;
+    text-align: center;
+}
+
+.a2g-container {
+    padding-top: 70px;
+}
+
+.leading {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}

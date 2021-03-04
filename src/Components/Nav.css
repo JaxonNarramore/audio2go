@@ -1,12 +1,13 @@
 .nav {
-    height: 110px;
+    height: 95px;
     position: fixed;
     top: 0;
     z-index: 999;
     width: 100%;
-    background-color: rgb(59, 59, 59);
+    background-color: rgba(7,15,26,255);
     line-height: 10px;
     color: white;
+    opacity: 95%;
 }
 
 .needquote {
@@ -20,10 +21,10 @@
 }
 
 .call {
-    font-size: 23px;
+    font-size: 21px;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 6px;
+    padding: 5px;
     color: white;
 }
 
@@ -33,10 +34,10 @@
 }
 
 .quote {
-    font-size: 23px;
+    font-size: 21px;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 6px;
+    padding: 5px;
     color: white;
     text-decoration: none;
 }

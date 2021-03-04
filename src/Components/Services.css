@@ -1,6 +1,7 @@
 .photo {
     width: 280px;
     padding: 5px;
+    height: 200px;
 }
 
 .images {
@@ -23,13 +24,13 @@
 
 .auto {
     position: absolute;
-    top: 1755px;
+    top: 2555px;
     left: 620px;
 }
 
 .home {
     position: absolute;
-    top: 1755px;
+    top: 2555px;
     left: 930px;
 }
 

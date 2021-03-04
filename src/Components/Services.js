@@ -36,9 +36,11 @@ const data = [
         text: "TV Mounting",
         text2: "Audio Installation",
         text3: "Security Camera Installation",
+        text4: "WIFI Management",
         img: "https://static.wixstatic.com/media/e2cf28_3eeba5f0205740d38af7ea4214942963~mv2.jpg/v1/fill/w_480,h_340,al_c,q_80,usm_0.66_1.00_0.01/IMG-0642_JPG.webp",
         img2: "https://static.wixstatic.com/media/e2cf28_5a78159648204f1f8385eed62933c693~mv2.jpg/v1/fill/w_480,h_340,al_c,q_80,usm_0.66_1.00_0.01/in%20ceiling%20speakers.webp",
-        img3: "https://static.wixstatic.com/media/e2cf28_840a7aa62b6b4da0863c21f2161c7234~mv2.jpg/v1/fill/w_480,h_340,al_c,q_80,usm_0.66_1.00_0.01/security%2520camera_edited.webp"
+        img3: "https://static.wixstatic.com/media/e2cf28_840a7aa62b6b4da0863c21f2161c7234~mv2.jpg/v1/fill/w_480,h_340,al_c,q_80,usm_0.66_1.00_0.01/security%2520camera_edited.webp",
+        img4: "Images/home.jpg"
     }
 ];
 

@@ -1,5 +1,5 @@
 .sliderimg{
-    height: 500px;
+    height: 460px;
     width: 400px;
 }
 
@@ -7,4 +7,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.carousel-container {
+}
+
+.ri {
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
