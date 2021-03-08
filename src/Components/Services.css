@@ -18,29 +18,55 @@
 
 .marine {
     position: absolute;
-    left: 160px;
+    left: 180px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 1px;
 
 }
 
 .auto {
     position: absolute;
-    top: 2555px;
-    left: 620px;
+    top: 1909px;
+    left: 580px;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .home {
     position: absolute;
-    top: 2555px;
-    left: 930px;
+    top: 1909px;
+    left: 850px;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .os {
-    font-size: 40px;
+    font-size: 55px;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .services-container {
-    background-color: aqua;
+    /* background-color: rgba(4,5,7,255); */
+    background-color: white;
+    color: black;
+    margin-top: -240px;
+    padding-bottom: 50px;
+}
+
+.home:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.auto:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.marine:hover {
+    color: grey;
+    cursor: pointer;
 }

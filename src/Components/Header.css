@@ -1,18 +1,22 @@
 .header-container {
-    background-image: url(header14.jpg);
-    background-size: cover;
-    /* height: 86vh; */
-    height: 148vh;
-    color: whitesmoke;
+    background-image: url(header10.jpg);
+    background-size: contain;
+    height: 120vh;
+    /* width: 100%; */
+    /* height: 170vh; */
+    color: black;
+    margin-top: 95px;
 }
 
 .a2g {
-    font-size: 200px;
+    font-size: 180px;
     text-align: center;
 }
 
 .a2g-container {
-    padding-top: 70px;
+    padding-top: 40px;
+    /* padding-right: 120px; */
+    color: white;
 }
 
 .leading {

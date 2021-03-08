@@ -13,8 +13,8 @@ export default function Home() {
             <Nav />
             <Header />
             <Values />
-            <RecentInstalls />
             <Services />
+            <RecentInstalls />
             <Brands />
             <Contact />
         </div>

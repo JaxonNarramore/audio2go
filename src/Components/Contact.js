@@ -2,6 +2,7 @@ import React from 'react'
 import './Contact.css'
 import { SiInstagram } from 'react-icons/si';
 import { GrFacebook } from 'react-icons/gr';
+import { AiOutlineFacebook } from 'react-icons/ai';
 
 export default function Contact() {
     return (
@@ -20,8 +21,12 @@ export default function Contact() {
                 <div className='social'>
                     <p>Socail Media</p>
                     <div className='icons'>
-                        <SiInstagram className='instagram' />
-                        <GrFacebook className='facebook' />
+                        <a href="https://www.facebook.com/Audio2GoATX/" target='_blank'>
+                            <AiOutlineFacebook className='facebook' />
+                        </a>
+                        <a href="https://www.instagram.com/audio2goatx/" target='_blank'>
+                            <SiInstagram className='instagram' />
+                        </a>
                     </div>
                 </div>
             </div>

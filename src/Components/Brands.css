@@ -16,9 +16,10 @@
 
 .brand {
     text-align: center;
-    background-color: grey;
+    background-color: rgba(4,5,7,255);
     padding-bottom: 80px;
     padding-top: 30px;
+    color: white;
 }
 
 .grid-item {

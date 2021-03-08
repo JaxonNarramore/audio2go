@@ -11,6 +11,8 @@
 }
 
 .carousel-container {
+    color: white;
+    background-color: rgba(4,5,7,255);
 }
 
 .ri {

@@ -4,10 +4,9 @@
     top: 0;
     z-index: 999;
     width: 100%;
-    background-color: rgba(7,15,26,255);
+    background-color: rgba(4,5,7,255);
     line-height: 10px;
     color: white;
-    opacity: 95%;
 }
 
 .needquote {
