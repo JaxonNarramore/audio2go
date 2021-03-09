@@ -1,57 +1,41 @@
-import React, { Component } from 'react'
+import React from 'react'
+import emailjs from 'emailjs-com';
+import './Quote.css'
 
-export default class Quote extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            quote: {
-                audio: props.audio,
-                other: props.other
-            }
-        }
+export default function Quote() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_jehhnpf', 'template_cfojvtk', e.target, 'user_JjjokygneXUjqq7WuOENs')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
     }
 
-    handleQuoteChanged(event) {
-        var quote = this.state.quote;
-        quote.status = event.target.value;
-
-        this.setState({ quote: quote });
-    }
-
-    handleButtonClicked(event) {
-        event.preventDefault();
-        console.log(this.state.quote);
-    }
-
-    render() {
-        return (
-            <div>
-                <form action="">
-                    <label for="Auto">Auto</label>
-                    <input id='Auto' type="radio" value="Auto" />
-                    <label for="Marine">Marine</label>
-                    <input id='Marine' type="radio" value="Marine" />
-                    <label for="Home/Commerical">Home/Commerical</label>
-                    <input id='Home/Commerical' type="radio" value="Home/Commerical" />
-                </form>
-                <form action="">
-                    <label for="Audio Options">Extra options</label>
-                    <select name="Audio Options" id="">
-                        <option value="100">Speaker</option>
-                        <option value="150">Radio</option>
-                        <option value="50">Wires</option>
-                    </select>
-                    <label for="Other">Other options</label>
-                    <select value={this.state.quote.other} onChange={this.handleQuoteChanged.bind(this)} name="Other" id="">
-                        <option value="300">Door</option>
-                        <option value="550">Trunk</option>
-                        <option value="10">Hood</option>
-                    </select>
-                    <button onClick={this.handleButtonClicked.bind(this)}>
-                        Get Quote
-                    </button>
-                </form>
-            </div>
-        )
-    }
+    return (
+        <div>
+            <h3>Request A Same Day Quote</h3>
+            <form className="quote-form" onSubmit={sendEmail}>
+                <label>First Name</label>
+                <input type="text" name="firstName" />
+                <label>Last Name</label>
+                <input type="text" name="lastName" />
+                <label>Email</label>
+                <input type="email" name="email" />
+                <label>Vehicle</label>
+                <input type="text" name="vehicle" />
+                <label>Location</label>
+                <input type="text" name="location" />
+                <label>Phone Number</label>
+                <input type="number" name="phone" />
+                <label>Description Of Work</label>
+                <textarea name="description" />
+                <input type="submit" value="Send" />
+            </form>
+        </div>
+    )
 }

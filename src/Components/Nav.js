@@ -21,7 +21,7 @@ export default class Nav extends Component {
                                 </p>
                             </a>
                             <p className='or'>OR</p>
-                            <Link className='quotelink' to='/quote'><p className='quote'>Build An Estimate</p></Link>
+                            <Link className='quotelink' to='/estimate'><p className='quote'>Build An Estimate</p></Link>
                         </div>
                     </div>
                 </div>

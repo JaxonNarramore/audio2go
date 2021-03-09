@@ -47,7 +47,7 @@ const data = [
 export default function Services() {
     const [toggle, setToggle] = useState('1')
     return (
-        <div className='services-container'>
+        <div id='services' className='services-container'>
             <p className='os'>Our Services</p>
             {data.map(({ title, title2, title3, text, text2, text3, text4, key, img, img2, img3, img4 }) => {
                 return (
