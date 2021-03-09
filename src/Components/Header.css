@@ -1,5 +1,5 @@
 .header-container {
-    background-image: url(header.jpg);
+    background-image: url(header1.png);
     background-size: contain;
     /* height: 120vh; */
     /* width: 100%; */
@@ -9,18 +9,19 @@
 }
 
 .a2g {
-    font-size: 180px;
+    font-size: 160px;
     text-align: center;
 }
 
 .a2g-container {
     padding-top: 11px;
-    padding-right: 300px;
+    margin-right: 500px;
+    /* padding-right: 300px; */
     color: white;
 }
 
 .leading {
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
     font-weight: 700;
 }

@@ -17,24 +17,42 @@ export default function Quote() {
     }
 
     return (
-        <div>
-            <h3>Request A Same Day Quote</h3>
+        <div className='quote-div'>
+            <h3 className='rasdq'>Request A Same Day Quote</h3>
             <form className="quote-form" onSubmit={sendEmail}>
-                <label>First Name</label>
-                <input type="text" name="firstName" />
-                <label>Last Name</label>
-                <input type="text" name="lastName" />
-                <label>Email</label>
-                <input type="email" name="email" />
-                <label>Vehicle</label>
-                <input type="text" name="vehicle" />
-                <label>Location</label>
-                <input type="text" name="location" />
-                <label>Phone Number</label>
-                <input type="number" name="phone" />
-                <label>Description Of Work</label>
-                <textarea name="description" />
-                <input type="submit" value="Send" />
+                <div class="firstlast">
+                    <div className='input-div'>
+                        <label>First Name</label>
+                        <input className='input' type="text" name="firstName" />
+                    </div>
+                    <div className='input-div'>
+                        <label>Last Name</label>
+                        <input className='input' type="text" name="lastName" />
+                    </div>
+                </div>
+                <div className='input-div'>
+                    <label>Email</label>
+                    <input id='email' className='input' type="email" name="email" />
+                </div>
+                <div class="vehiclelocation">
+                    <div className='input-div'>
+                        <label>Vehicle</label>
+                        <input className='input' type="text" name="vehicle" />
+                    </div>
+                    <div className='input-div'>
+                        <label>Location</label>
+                        <input className='input' type="text" name="location" />
+                    </div>
+                </div>
+                <div className='input-div'>
+                    <label>Phone Number</label>
+                    <input id='phone' className='input' type="number" name="phone" />
+                </div>
+                <div className='input-div'>
+                    <label>Description Of Work</label>
+                    <textarea id='description' className='input' name="description" />
+                </div>
+                <input className='btn btn-outline-primary' type="submit" value="Send" />
             </form>
         </div>
     )
