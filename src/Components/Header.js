@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <div className='header-container'>
             <div className='a2g-container'>
-                <h1 className='a2g'>Audio 2 Go</h1>
+                {/* <h1 className='a2g'>Audio 2 GO</h1> */}
                 <p className='leading'>The Leading Mobile Electronics Installation Specialists</p>
                 <div className='button-group'>
                     <div className='button-div'>
@@ -14,11 +14,11 @@ export default function Header() {
                             <button type="button" class="btn btn-outline-danger">Get A Quote</button>
                         </Link>
                     </div>
-                    <div className='button-div'>
+                    {/* <div className='button-div'>
                         <Link>
-                            <button type="button" class="btn btn-outline-danger">Get In Contact</button>
+                            <button type="button" class="btn btn-outline-danger">Recent </button>
                         </Link>
-                    </div>
+                    </div> */}
                     <div className='button-div'>
                         <Link to='services' activeClass="active" spy={true} smooth={true} offset={-180} duration={100}>
                             <button type="button" class="btn btn-outline-danger">Our Services</button>

@@ -14,14 +14,13 @@
 }
 
 .a2g-container {
-    padding-top: 11px;
-    margin-right: 500px;
-    /* padding-right: 300px; */
+    padding-top: 90px;
+    margin-left: 450px;
     color: white;
 }
 
 .leading {
-    font-size: 27px;
+    font-size: 60px;
     text-align: center;
     font-weight: 700;
 }
@@ -32,5 +31,9 @@
 }
 
 .button-div {
-    padding: 10px;
+    padding: 14px;
+}
+
+.btn {
+    font-size: 22px;
 }

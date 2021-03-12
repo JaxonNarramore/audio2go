@@ -13,7 +13,7 @@ export default function Home() {
         <div>
             <Nav />
             <Header />
-            <Quote />
+            {/* <Quote /> */}
             <Values />
             <Services />
             <RecentInstalls />
