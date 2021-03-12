@@ -42,3 +42,9 @@
     font-size: 36px;
     margin-top: -1px;
 }
+
+.whole-contact {
+    position: absolute;
+    bottom: -4500px;
+    
+}

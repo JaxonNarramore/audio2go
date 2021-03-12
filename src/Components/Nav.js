@@ -35,22 +35,22 @@ function Nav() {
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
-                                About
+                                Values
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='skills' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
-                                Skills
+                                Servcies
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='projects' activeClass="active" spy={true} smooth={true} offset={-40} duration={100} className='nav-links' onClick={closeMobileMenu}>
-                                Projects
+                                Installs
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='contact' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
-                                Contact
+                                Brands
                             </Link>
                         </li>
                     </ul>
