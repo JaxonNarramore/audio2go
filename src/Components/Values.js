@@ -3,7 +3,7 @@ import './Values.css'
 
 export default function Values() {
     return (
-        <div className='value-container'>
+        <div id='values' className='value-container'>
             <p className='our-values'>Our Values</p>
             <p className='value-statement'>
                 Audio 2 Go’s Core values are the foundation we are built on.

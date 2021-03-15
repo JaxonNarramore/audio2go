@@ -7,14 +7,14 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Contact() {
     return (
-        <div>
+        <div id='quotes'>
             <div class="whole-contact">
                 <div class="contact-container">
                     <div className='footer-logo'>
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-logo'>
-                            <img className='logo' src="Images/logo.png" alt="" />
+                            <img className='footLogo' src="Images/logo.png" alt="" />
                         </Link>
-                        <p>Fill out the form above or give us a call for a free same day quote!</p>
+                        <p className='fill-out-form'>Fill out the form above or give us a call for a free same day quote!</p>
                         <div className='icons'>
                             <a href="https://www.facebook.com/Audio2GoATX/" target='_blank'>
                                 <AiOutlineFacebook className='facebook' />
@@ -25,16 +25,16 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className='about'>
-                        <p>About </p>
-                        <p>We are a mobile audio installation service that specializes in anything with a 12-volt system. </p>
+                        <p className='contact-head'>About </p>
+                        <p className='abt-div'>We are a mobile audio installation service that specializes in anything with a 12-volt system. </p>
                     </div>
                     <div className='contact'>
-                        <p>Contact</p>
+                        <p className='contact-head'>Contact</p>
                         <p>quotes@audio2goatx.com</p>
                         <p>512-588-2677</p>
                     </div>
                     <div class="explore">
-                        <p>Explore</p>
+                        <p className='contact-head'>Explore</p>
                         <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
                             Home
                         </Link>

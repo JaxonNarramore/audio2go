@@ -28,7 +28,7 @@ export default function RecentInstalls() {
         }
     };
     return (
-        <div className='carousel-container'>
+        <div id='installs' className='carousel-container'>
             <p className='ri'>Recent Installs</p>
             <div className='carousel'>
                 <AliceCarousel

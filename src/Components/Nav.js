@@ -34,22 +34,22 @@ function Nav() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='values' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Values
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='skills' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='services' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Servcies
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='projects' activeClass="active" spy={true} smooth={true} offset={-40} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='installs' activeClass="active" spy={true} smooth={true} offset={-40} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Installs
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='contact' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='brands' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Brands
                             </Link>
                         </li>
