@@ -26,12 +26,26 @@
 .instagram {
     font-size: 35px;
     margin-left: 5px;
+    color: white;
+    cursor: pointer;
 }
 
 .facebook {
     font-size: 42px;
     margin-top: -1px;
     margin-right: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    color: red;
 }
 
 .whole-contact {
@@ -76,4 +90,48 @@
 
 .contact-head {
     font-size: 30px;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-links:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.email-link {
+    color: white;
+    text-decoration: none;
+}
+
+.number-link {
+    color: white;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+.number-link:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+.fotf {
+    color: white;
+    text-decoration: none;
+}
+
+.fotf:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
 }

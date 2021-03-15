@@ -14,7 +14,7 @@ export default function Contact() {
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-logo'>
                             <img className='footLogo' src="Images/logo.png" alt="" />
                         </Link>
-                        <p className='fill-out-form'>Fill out the form above or give us a call for a free same day quote!</p>
+                        <p className='fill-out-form'><Link className='fotf' to='quotes' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} >Fill out the form</Link> above or <a className='number-link' href="tel:+5125882677">give us a call</a> for a free same day quote!</p>
                         <div className='icons'>
                             <a href="https://www.facebook.com/Audio2GoATX/" target='_blank'>
                                 <AiOutlineFacebook className='facebook' />
@@ -30,27 +30,31 @@ export default function Contact() {
                     </div>
                     <div className='contact'>
                         <p className='contact-head'>Contact</p>
-                        <p>quotes@audio2goatx.com</p>
-                        <p>512-588-2677</p>
+                        <a className='email-link' href="mailto: quotes@audio2goatx.com">
+                            <p>quotes@audio2goatx.com</p>
+                        </a>
+                        <a className='number-link' href="tel:+5125882677">
+                            <p>512-588-2677</p>
+                        </a>
                     </div>
                     <div class="explore">
                         <p className='contact-head'>Explore</p>
-                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                        <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
                             Home
                         </Link>
-                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                        <Link to='values' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
                             Our Values
                         </Link>
-                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                        <Link to='services' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
                             Our Services
                         </Link>
-                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                        <Link to='installs' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
                             Recent Installs
                         </Link>
-                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                        <Link to='brands' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
                             Our Brands
                         </Link>
-                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                        <Link to='quotes' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
                             Get A Quote
                         </Link>
                     </div>
