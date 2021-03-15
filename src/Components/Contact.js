@@ -9,11 +9,9 @@ export default function Contact() {
     return (
         <div>
             <div class="whole-contact">
-                {/* <p className='ro-cuo'>Reach Out & Check Us Out</p>
-                <p className='ro-cuo-div'>Ask about our current packages, pricing and more. Our friendly, knowledgeable staff can answer all of your auto reconditioning questions.</p> */}
                 <div class="contact-container">
                     <div className='footer-logo'>
-                        <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='navbar-logo'>
+                        <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-logo'>
                             <img className='logo' src="Images/logo.png" alt="" />
                         </Link>
                         <p>Fill out the form above or give us a call for a free same day quote!</p>
@@ -26,7 +24,7 @@ export default function Contact() {
                             </a>
                         </div>
                     </div>
-                    <div>
+                    <div className='about'>
                         <p>About </p>
                         <p>We are a mobile audio installation service that specializes in anything with a 12-volt system. </p>
                     </div>
@@ -34,6 +32,27 @@ export default function Contact() {
                         <p>Contact</p>
                         <p>quotes@audio2goatx.com</p>
                         <p>512-588-2677</p>
+                    </div>
+                    <div class="explore">
+                        <p>Explore</p>
+                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                            Home
+                        </Link>
+                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                            Our Values
+                        </Link>
+                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                            Our Services
+                        </Link>
+                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                            Recent Installs
+                        </Link>
+                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                            Our Brands
+                        </Link>
+                        <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-links'>
+                            Get A Quote
+                        </Link>
                     </div>
                 </div>
             </div>
