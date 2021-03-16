@@ -7,10 +7,10 @@ import './RecentInstalls.css'
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-    // <img src='Images/1.jpg' className="sliderimg" onDragStart={handleDragStart} />,
+    <img src='Images/1.jpg' className="sliderimg" onDragStart={handleDragStart} />,
     <img src='Images/2.jpg' className="sliderimg" onDragStart={handleDragStart} />,
     <img src='Images/3.jpg' className="sliderimg" onDragStart={handleDragStart} />,
-    <img src='Images/4.jpg' className="sliderimg" onDragStart={handleDragStart} />,
+    // <img src='Images/4.jpg' className="sliderimg" onDragStart={handleDragStart} />,
     <img src='Images/5.jpg' className="sliderimg" onDragStart={handleDragStart} />,
     <img src='Images/6.jpg' className="sliderimg" onDragStart={handleDragStart} />
 ]
