@@ -62,9 +62,9 @@
     position: absolute;
     color: white;
     width: 100%;
-    bottom: -4320px;
+    bottom: -4380px;
     background-color: black;
-    height: 290px;
+    height: 310px;
 }
 
 .explore {
@@ -106,6 +106,7 @@
     text-decoration: none;
     color: white;
     cursor: pointer;
+    padding-top: 6px;
 }
 
 .contact-links:hover {

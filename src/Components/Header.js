@@ -14,7 +14,7 @@ export default function Header() {
                         </Link>
                     </div>
                     <div className='button-div'>
-                        <Link to='services' activeClass="active" spy={true} smooth={true} offset={-180} duration={100}>
+                        <Link to='services' activeClass="active" spy={true} smooth={true} offset={-160} duration={100}>
                             <button type="button" class="btn btn-outline-danger">Our Services</button>
                         </Link>
                     </div>
