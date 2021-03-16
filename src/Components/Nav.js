@@ -1,6 +1,7 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useState, useEffect } from 'react'
 import './Nav.css'
+import QuoteButton from './QuoteButton'
 
 function Nav() {
     const [click, setClick] = useState(false)
@@ -54,7 +55,7 @@ function Nav() {
                             </Link>
                         </li>
                     </ul>
-                    {/* {button && <ResumeLink>Resume</ResumeLink>} */}
+                    {/* {button && <QuoteButton>Resume</QuoteButton>} */}
                 </div>
             </nav>
         </div>

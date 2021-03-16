@@ -41,11 +41,21 @@
 .instagram:hover {
     cursor: pointer;
     color: red;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 .facebook:hover {
     cursor: pointer;
     color: red;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 .whole-contact {
@@ -54,13 +64,13 @@
     width: 100%;
     bottom: -4320px;
     background-color: black;
-    height: 270px;
+    height: 290px;
 }
 
 .explore {
     display: flex;
     flex-direction: column;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .about {
@@ -75,17 +85,17 @@
 
 .fill-out-form {
     width: 400px;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .abt-div {
     width: 400px;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .contact {
     width: 400px;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .contact-head {
@@ -101,6 +111,11 @@
 .contact-links:hover {
     color: red;
     text-decoration: underline;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 .email-link {
@@ -117,12 +132,22 @@
     cursor: pointer;
     color: red;
     text-decoration: underline;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 .number-link:hover {
     cursor: pointer;
     color: red;
     text-decoration: underline;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 .fotf {
@@ -134,4 +159,9 @@
     cursor: pointer;
     color: red;
     text-decoration: underline;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
