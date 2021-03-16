@@ -37,7 +37,7 @@ export default function Contact() {
                             <p>512-588-2677</p>
                         </a>
                     </div>
-                    <div class="explore">
+                    <div id='contact' class="explore">
                         <p className='contact-head'>Explore</p>
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
                             Home
@@ -60,6 +60,6 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

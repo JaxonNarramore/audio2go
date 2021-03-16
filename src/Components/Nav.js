@@ -54,8 +54,18 @@ function Nav() {
                                 Brands
                             </Link>
                         </li>
+                        <li className='nav-item'>
+                            <Link to='quotes' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                                Quote
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='contact' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                                Contact
+                            </Link>
+                        </li>
                     </ul>
-                    {/* {button && <QuoteButton>Resume</QuoteButton>} */}
+                    {/* {button && <QuoteButton className='getaquote'>Resume</QuoteButton>} */}
                 </div>
             </nav>
         </div>
