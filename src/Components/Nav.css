@@ -26,7 +26,6 @@
     margin-left: 30px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.6rem;
     display: flex;
     align-items: center;
   }
@@ -97,7 +96,7 @@
     width: 20px;
   }
   
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1060px) {
     .NavbarItems {
       position: relative;
     }
@@ -134,11 +133,11 @@
       color: #242424;
       border-radius: 0;
     }
-  
+
     .navbar-logo {
       position: absolute;
-      top: 16px;
-      left: 0;
+      margin-top: -136px;
+      left: -465px;
       transform: translate(25%, 50%);
     }
   

@@ -27,9 +27,11 @@ function Nav() {
         <div>
             <nav class="navbar">
                 <div class="navbar-container">
-                    <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='navbar-logo' onClick={closeMobileMenu}>
-                        <img className='logo' src="Images/logo.png" alt="" />
-                    </Link>
+                    <div class="logologo">
+                        <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='navbar-logo' onClick={closeMobileMenu}>
+                            <img className='logo' src="Images/logo.png" alt="" />
+                        </Link>
+                    </div>
                     <div class="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>

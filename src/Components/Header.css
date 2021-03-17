@@ -1,11 +1,16 @@
 .header-container {
-    background-image: url(header6.jpg);
-    background-size: contain;
-    height: 127vh;
+    background: url(header6.jpg) center center/cover no-repeat transparent;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    height: 130vh;
     color: black;
     margin-top: 31px;
     display: flex;
-    justify-content: center;
 }
 
 .a2g {
@@ -15,13 +20,13 @@
 
 .a2g-container {
     padding-top: 100px;
-    /* margin-left: 50px; */
+    margin-left: 155px;
     color: whitesmoke;
     width: 1200px;
 }
 
 .leading {
-    font-size: 80px;
+    font-size: 77px;
     text-align: center;
     font-weight: 700;
 }
@@ -29,13 +34,167 @@
 .button-group {
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .button-div {
-    padding: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .btn {
     font-size: 25px;
 }
+
+@media screen and (max-width: 1400px) {
+    .leading {
+        font-size: 73px;
+        margin-right: 70px;
+    }
+
+    .btn {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .leading {
+        font-size: 70px;
+        margin-right: 100px;
+    }
+
+    .btn {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .leading {
+        font-size: 64px;
+        margin-right: 130px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .leading {
+        font-size: 60px;
+        margin-right: 150px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .leading {
+        font-size: 56px;
+        margin-right: 180px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .leading {
+        font-size: 50px;
+        margin-right: 175px;
+    }
+
+    .btn {
+        font-size: 19px;
+    }
+
+    .a2g-container {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .leading {
+        font-size: 47px;
+        margin-right: 180px;
+    }
+
+    .btn {
+        font-size: 19px;
+    }
+
+    .a2g-container {
+        width: 1000px;
+    }
+
+    .button-group {
+        margin-right: 160px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .leading {
+        font-size: 47px;
+        margin-right: 160px;
+    }
+
+    .btn {
+        font-size: 19px;
+    }
+
+    .button-group {
+        margin-right: 160px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .leading {
+        font-size: 40px;
+        margin-left: 170px;
+        width: 500px;
+    }
+
+    .btn {
+        font-size: 19px;
+    }
+
+    .button-group {
+        padding-top: 15px;
+        margin-right: 160px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .leading {
+        font-size: 38px;
+        margin-right: 160px;
+    }
+
+    .btn {
+        font-size: 19px;
+    }
+
+    .button-group {
+        padding-top: 30px;
+        margin-right: 160px;
+    }
+}
+
+
+
+
+
+/* 
+@media screen and (max-width: 1060px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 380px) {
+
+} */
