@@ -55,6 +55,10 @@
     .btn {
         font-size: 23px;
     }
+
+    .button-group {
+        margin-right: 45px;
+    }
 }
 
 @media screen and (max-width: 1240px) {
@@ -66,6 +70,10 @@
     .btn {
         font-size: 23px;
     }
+
+    .button-group {
+        margin-right: 65px;
+    }
 }
 
 @media screen and (max-width: 1150px) {
@@ -75,7 +83,7 @@
     }
 
     .btn {
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
@@ -86,7 +94,7 @@
     }
 
     .btn {
-        font-size: 20px;
+        font-size: 21px;
     }
 }
 
@@ -97,22 +105,19 @@
     }
 
     .btn {
-        font-size: 20px;
+        font-size: 19px;
     }
 }
 
 @media screen and (max-width: 870px) {
     .leading {
         font-size: 50px;
-        margin-right: 175px;
+        margin-left: 180px;
+        width: 700px;
     }
 
     .btn {
         font-size: 19px;
-    }
-
-    .a2g-container {
-        width: 1000px;
     }
 }
 
@@ -120,29 +125,27 @@
     .leading {
         font-size: 47px;
         margin-right: 180px;
+        width: 700px;
     }
 
     .btn {
-        font-size: 19px;
-    }
-
-    .a2g-container {
-        width: 1000px;
+        font-size: 18px;
     }
 
     .button-group {
-        margin-right: 160px;
+        margin-right: 95px;
     }
 }
 
 @media screen and (max-width: 780px) {
     .leading {
         font-size: 47px;
-        margin-right: 160px;
+        margin-left: 270px;
+        width: 500px;
     }
 
     .btn {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .button-group {
@@ -152,13 +155,13 @@
 
 @media screen and (max-width: 700px) {
     .leading {
-        font-size: 40px;
-        margin-left: 170px;
+        font-size: 45px;
+        margin-left: 267px;
         width: 500px;
     }
 
     .btn {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .button-group {
@@ -169,16 +172,17 @@
 
 @media screen and (max-width: 380px) {
     .leading {
-        font-size: 37px;
-        margin-right: 160px;
+        font-size: 45px;
+        margin-left: 370px;
+        width: 300px;padding-top: 20px;
     }
 
     .btn {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .button-group {
-        padding-top: 30px;
+        padding-top: 50px;
         margin-right: 160px;
     }
 }
