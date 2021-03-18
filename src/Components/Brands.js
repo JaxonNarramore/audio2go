@@ -4,7 +4,7 @@ import './Brands.css'
 export default function Brands() {
     return (
         <div id='brands' className='brand'>
-            <h1 className='top-brands'>Audio 2 Go Offers Top Brand Audio & Video Products</h1>
+            <p className='top-brands'>Audio 2 Go Offers Top Brand Audio & Video Products</p>
             <div className='bcc'>
                 <div class="brand-container">
                     <div class="grid-item">

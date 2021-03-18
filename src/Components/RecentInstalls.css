@@ -35,8 +35,11 @@
     }
 }
 
-@media screen and (max-width: 1150px) {
-
+@media screen and (max-width: 1160px) {
+    .sliderimg{
+        height: 370px;
+        width: 320px;
+    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -60,7 +63,6 @@
 }
 
 @media screen and (max-width: 700px) {
-
 }
 
 @media screen and (max-width: 380px) {
