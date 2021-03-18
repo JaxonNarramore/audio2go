@@ -271,8 +271,40 @@
     .e-div {
         min-width: 400px;
     }
+
+    .value-statement {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #first-value-head {
+        line-height: 30px;
+    }
 }
 
 @media screen and (max-width: 380px) {
+    .cs-div {
+        min-width: 330px;
+    }
+    .i-div {
+        min-width: 330px;
+    }
+    .pfe-div {
+        min-width: 330px;
+    }
+    .e-div {
+        min-width: 330px;
+    }
 
+    .value-statement {
+        width: 350px;
+        line-height: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #first-value-head {
+        line-height: 35px;
+    }
 }
