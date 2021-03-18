@@ -4,11 +4,25 @@
     padding-bottom: 250px;
 }
 
+.ati {
+    line-height: 45px;
+}
+
 .our-values {
     font-size: 55px;
     text-align: center;
-    color: white;
     padding-top: 30px;
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+
+.value1-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
 }
 
 .value-statement {
@@ -17,6 +31,13 @@
     font-weight: 600;
     line-height: 15px;
     color: white;
+    justify-content: center;
+}
+
+.vs-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .customer-satisfaction {
@@ -47,6 +68,7 @@
     font-size: 19px;
     margin-bottom: 0;
     color: white;
+    padding-top: 10px;
 }
 .integrety {
     display: flex;
@@ -76,6 +98,7 @@
     font-size: 19px;
     margin-bottom: 0;
     color: white;
+    padding-top: 20px;
 }
 .plan-for-execution {
     display: flex;
@@ -105,11 +128,13 @@
     font-size: 19px;
     margin-bottom: 0;
     color: white;
+    padding-top: 20px;
 }
 .excellence {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin-right: 125px;
 }
 
@@ -135,6 +160,7 @@
     font-size: 19px;
     margin-bottom: 0;
     color: white;
+    padding-top: 20px;
 }
 
 .e-container {
@@ -152,4 +178,101 @@
 
 .cs-container {
     padding: 40px;
+}
+
+.everyvalue {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+    .value-statement {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .value-statement {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+}
+
+@media screen and (max-width: 870px) {
+
+}
+
+@media screen and (max-width: 850px) {
+    .cs-image {
+        display: none;
+    }
+
+    .customer-satisfaction {
+        margin-left: 125px;
+    }
+
+    .cs-div {
+        min-width: 450px;
+    }
+    .i-image {
+        display: none;
+    }
+
+    .integrety {
+        margin-left: 125px;
+    }
+
+    .i-div {
+        min-width: 450px;
+    }
+    .pfe-image {
+        display: none;
+    }
+
+    .plan-for-execution {
+        margin-left: 125px;
+    }
+
+    .pfe-div {
+        min-width: 450px;
+    }
+    .e-image {
+        display: none;
+    }
+
+    .excellence {
+        margin-left: 125px;
+    }
+
+    .e-div {
+        min-width: 450px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .e-div {
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .e-div {
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
 }
