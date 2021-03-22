@@ -16,6 +16,11 @@
     width: 280px;
 }
 
+.links-cont {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* .marine {
     position: absolute;
