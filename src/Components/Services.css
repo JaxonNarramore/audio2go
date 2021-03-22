@@ -1,3 +1,93 @@
+/* .photo {
+    width: 280px;
+    padding: 5px;
+    height: 200px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.text {
+    text-align: center;
+    width: 280px;
+}
+
+.links-cont {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    flex-direction: row;
+}
+
+
+.marine {
+    position: absolute;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.auto {
+    position: absolute;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.home {
+    position: absolute;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: -100px;
+}
+
+.os {
+    font-size: 55px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+
+.services-container {
+    background-color: rgba(4,5,7,255);
+    background-color: white;
+    color: black;
+    margin-top: -240px;
+    padding-bottom: 50px;
+}
+
+.home:hover {
+    color: red;
+    cursor: pointer;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.auto:hover {
+    color: red;
+    cursor: pointer;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.marine:hover {
+    color: red;
+    cursor: pointer;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+} */
+
 .photo {
     width: 280px;
     padding: 5px;
@@ -16,45 +106,38 @@
     width: 280px;
 }
 
-.links-cont {
-    display: flex;
-    justify-content: center;
-}
-
-
-/* .marine {
+.marine {
     position: absolute;
     left: 180px;
     font-weight: 600;
     font-size: 30px;
     margin-top: 1px;
 
-} */
+}
 
-/* .auto {
+.auto {
     position: absolute;
-    top: 1867px;
-    left: 580px;
+    top: 1953px;
+    left: 180px;
     font-weight: 600;
     font-size: 30px;
-} */
+}
 
-/* .home {
+.home {
     position: absolute;
-    top: 1867px;
-    left: 850px;
+    top: 1953px;
+    left: 550px;
     font-weight: 600;
     font-size: 30px;
-} */
+}
 
 .os {
     font-size: 55px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .services-container {
-    /* background-color: rgba(4,5,7,255); */
     background-color: white;
     color: black;
     margin-top: -240px;
@@ -102,8 +185,6 @@
 
 @media screen and (max-width: 1122px) {
     .images {
-        /* flex-direction: column;
-        align-items: center; */
         display: grid;
         grid-template-columns: auto auto;
     }

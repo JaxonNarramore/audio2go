@@ -49,7 +49,7 @@ export default function Services() {
     return (
         <div id='services' className='services-container'>
             <p className='os'>Our Services</p>
-            {data.map(({ title, title2, title3, text, text2, text3, text4, key, img, img2, img3, img4 }) => {
+            {data.map(({ title, img, title2, img2, title3, img3, text, text2, text3, text4, img4, key }) => {
                 return (
                     <div className="main">
                         <div className='links-cont'>
