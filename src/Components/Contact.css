@@ -62,9 +62,10 @@
     /* position: absolute; */
     color: white;
     width: 100%;
-    bottom: -4510px;
+    /* bottom: -4510px; */
     background-color: rgba(1,1,1,255);
-    height: 310px;
+    /* height: 310px; */
+    padding-bottom: 30px;
 }
 
 .explore {
@@ -74,7 +75,7 @@
 }
 
 .about {
-    width: 400px;
+    width: 340px;
 }
 
 .footLogo {
@@ -84,22 +85,24 @@
 }
 
 .fill-out-form {
-    width: 400px;
+    width: 340px;
     font-size: 20px;
 }
 
 .abt-div {
-    width: 400px;
+    width: 340px;
     font-size: 20px;
 }
 
 .contact {
-    width: 400px;
+    width: 340px;
     font-size: 20px;
 }
 
 .contact-head {
     font-size: 30px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
 }
 
 .contact-links {
@@ -165,4 +168,68 @@
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1240px) {
+    .contact-container {
+
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .contact-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .contact {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+
+}
+
+@media screen and (max-width: 950px) {
+
+}
+
+@media screen and (max-width: 870px) {
+    .contact-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .contact {
+        padding-top: 40px;
+    }
+
+    .explore {
+        padding-top: 40px;
+    }
+
+    .about {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 780px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 380px) {
+
 }
