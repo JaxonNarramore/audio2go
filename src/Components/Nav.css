@@ -100,7 +100,7 @@
       position: relative;
     }
   
-    /* .nav-menu {
+    .nav-menu {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -110,7 +110,7 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
-    } */
+    }
   
     .nav-menu.active {
       background: #242222;
@@ -133,14 +133,14 @@
       border-radius: 0;
     }
 
-    /* .navbar-logo {
+    .navbar-logo {
       position: absolute;
       margin-top: -136px;
       left: -475px;
       transform: translate(25%, 50%);
-    } */
+    }
   
-    /* .menu-icon {
+    .menu-icon {
       display: block;
       position: absolute;
       top: -12px;
@@ -148,7 +148,7 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-    } */
+    }
   
     .fa-times {
       color: #fff;
