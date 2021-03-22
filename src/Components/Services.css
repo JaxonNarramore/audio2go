@@ -16,30 +16,30 @@
     width: 280px;
 }
 
-.marine {
+/* .marine {
     position: absolute;
     left: 180px;
     font-weight: 600;
     font-size: 30px;
     margin-top: 1px;
 
-}
+} */
 
-.auto {
+/* .auto {
     position: absolute;
     top: 1867px;
     left: 580px;
     font-weight: 600;
     font-size: 30px;
-}
+} */
 
-.home {
+/* .home {
     position: absolute;
     top: 1867px;
     left: 850px;
     font-weight: 600;
     font-size: 30px;
-}
+} */
 
 .os {
     font-size: 55px;
