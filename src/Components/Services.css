@@ -108,25 +108,25 @@
 
 .marine {
     position: absolute;
-    left: 180px;
+    left: 560px;
     font-weight: 600;
     font-size: 30px;
-    margin-top: 1px;
+    top: 2053px;
 
 }
 
 .auto {
     position: absolute;
-    top: 1953px;
-    left: 180px;
+    top: 2053px;
+    left: 800px;
     font-weight: 600;
     font-size: 30px;
 }
 
 .home {
     position: absolute;
-    top: 1953px;
-    left: 550px;
+    top: 2053px;
+    left: 150px;
     font-weight: 600;
     font-size: 30px;
 }
@@ -174,13 +174,193 @@
     transition:.5s;
 }
 
+@media screen and (max-width: 1440px) {
+    .marine {
+        position: absolute;
+        left: 660px;
+        font-weight: 600;
+        font-size: 30px;
+        top: 2053px;
+    
+    }
+    
+    .auto {
+        position: absolute;
+        top: 2053px;
+        left: 900px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .home {
+        position: absolute;
+        top: 2053px;
+        left: 250px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
 
 @media screen and (max-width: 1400px) {
+    .marine {
+        position: absolute;
+        left: 640px;
+        font-weight: 600;
+        font-size: 30px;
+        top: 2053px;
+    
+    }
+    
+    .auto {
+        position: absolute;
+        top: 2053px;
+        left: 880px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .home {
+        position: absolute;
+        top: 2053px;
+        left: 230px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
 
+@media screen and (max-width: 1350px) {
+    .marine {
+        position: absolute;
+        left: 615px;
+        font-weight: 600;
+        font-size: 30px;
+        top: 2053px;
+    
+    }
+    
+    .auto {
+        position: absolute;
+        top: 2053px;
+        left: 855px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .home {
+        position: absolute;
+        top: 2053px;
+        left: 205px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .marine {
+        position: absolute;
+        left: 590px;
+        font-weight: 600;
+        font-size: 30px;
+        top: 2053px;
+    
+    }
+    
+    .auto {
+        position: absolute;
+        top: 2053px;
+        left: 830px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .home {
+        position: absolute;
+        top: 2053px;
+        left: 180px;
+        font-weight: 600;
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 1240px) {
+    .marine {
+        position: absolute;
+        left: 560px;
+        font-weight: 600;
+        font-size: 30px;
+        top: 2053px;
+    
+    }
+    
+    .auto {
+        position: absolute;
+        top: 2053px;
+        left: 800px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .home {
+        position: absolute;
+        top: 2053px;
+        left: 150px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
 
+@media screen and (max-width: 1200px) {
+    .marine {
+        position: absolute;
+        left: 540px;
+        font-weight: 600;
+        font-size: 30px;
+        top: 2053px;
+    
+    }
+    
+    .auto {
+        position: absolute;
+        top: 2053px;
+        left: 780px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .home {
+        position: absolute;
+        top: 2053px;
+        left: 130px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .marine {
+        position: absolute;
+        left: 520px;
+        font-weight: 600;
+        font-size: 30px;
+        top: 2053px;
+    
+    }
+    
+    .auto {
+        position: absolute;
+        top: 2053px;
+        left: 760px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .home {
+        position: absolute;
+        top: 2053px;
+        left: 110px;
+        font-weight: 600;
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 1122px) {
@@ -192,6 +372,30 @@
     .links-cont {
         display: flex;
         justify-content: center;
+    }
+
+    .marine {
+        position: absolute;
+        /* left: 180px; */
+        font-weight: 600;
+        font-size: 30px;
+        margin-top: 1px;
+    }
+    
+    .auto {
+        position: absolute;
+        top: 2053px;
+        margin-left: 480px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .home {
+        position: absolute;
+        top: 2053px;
+        margin-left: -370px;
+        font-weight: 600;
+        font-size: 30px;
     }
 }
 

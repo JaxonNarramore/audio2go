@@ -54,13 +54,13 @@ export default function Services() {
                     <div className="main">
                         <div className='links-cont'>
                             <div className='marine'>
-                                <h2 className='title marine' onClick={() => setToggle(key)}>{title} </h2>
+                                <h2 onClick={() => setToggle(key)}>{title} </h2>
                             </div>
-                            <div>
-                                <h2 className='title auto' onClick={() => setToggle(key)}>{title2} </h2>
+                            <div className='auto'>
+                                <h2 onClick={() => setToggle(key)}>{title2} </h2>
                             </div>
-                            <div>
-                                <h2 className='title home' onClick={() => setToggle(key)}>{title3} </h2>
+                            <div className='home'>
+                                <h2 onClick={() => setToggle(key)}>{title3} </h2>
                             </div>
                         </div>
                         {toggle === key ? (
