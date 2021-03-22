@@ -59,9 +59,9 @@
 }
 
 .whole-contact {
-    position: absolute;
+    /* position: absolute; */
     color: white;
-    /* width: 100%; */
+    width: 100%;
     bottom: -4510px;
     background-color: rgba(1,1,1,255);
     height: 310px;

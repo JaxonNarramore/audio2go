@@ -52,7 +52,7 @@ export default function Services() {
             {data.map(({ title, title2, title3, text, text2, text3, text4, key, img, img2, img3, img4 }) => {
                 return (
                     <div className="main">
-                        {/* <div>
+                        <div className='links-cont'>
                             <div className='marine'>
                                 <h2 className='title marine' onClick={() => setToggle(key)}>{title} </h2>
                             </div>
@@ -62,7 +62,7 @@ export default function Services() {
                             <div>
                                 <h2 className='title home' onClick={() => setToggle(key)}>{title3} </h2>
                             </div>
-                        </div> */}
+                        </div>
                         {toggle === key ? (
                             <div className='images'>
                                 <div>
