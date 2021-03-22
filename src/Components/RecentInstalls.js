@@ -50,10 +50,30 @@ export default function RecentInstalls() {
                     paddingRight={30}>
                 </AliceCarousel>
             </div>
-        </div >
+        </div>
     )
 }
 
+{/* <div className='carousel'>
+        <AliceCarousel
+            duration={400}
+            autoPlay={true}
+            startIndex={1}
+            fadeOutAnimation={true}
+            mouseDragEnabled={true}
+            playButtonEnabled={true}
+            responsive={responsive}
+            autoPlayInterval={2000}
+            autoPlayDirection="rtl"
+            autoPlayActionDisabled={true}
+            mouseTracking
+            infinite
+            autoPlay
+            items={items}
+            paddingLeft={93}
+            paddingRight={30}>
+        </AliceCarousel>
+    </div> */}
 
 
 // const handleDragStart = (e) => e.preventDefault();
