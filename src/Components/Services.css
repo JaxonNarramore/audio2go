@@ -579,7 +579,7 @@
 
     .links-cont {
         position: absolute;
-        top: 55px;
+        top: 320px;
         left: -75px;
     }
 }
@@ -595,17 +595,31 @@
 @media screen and (max-width: 414px) {
     .links-cont {
         position: absolute;
-        top: 145px;
+        top: 35px;
         left: -250px;
     }
 }
-
-
 
 @media screen and (max-width: 380px) {
     .links-cont {
         position: absolute;
         top: 280px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .links-cont {
+        position: absolute;
+        top: 80px;
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .links-cont {
+        position: absolute;
+        top: 180px;
         left: -270px;
     }
 }
