@@ -174,192 +174,247 @@
     transition:.5s;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1950px) {
     .marine {
-        position: absolute;
-        left: 660px;
-        font-weight: 600;
-        font-size: 30px;
-        top: 2053px;
-    
+        left: 905px;
     }
     
     .auto {
-        position: absolute;
-        top: 2053px;
-        left: 900px;
-        font-weight: 600;
-        font-size: 30px;
+        left: 1155px;
     }
     
     .home {
-        position: absolute;
-        top: 2053px;
+        left: 505px;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    .marine {
+        left: 880px;
+    }
+    
+    .auto {
+        left: 1130px;
+    }
+    
+    .home {
+        left: 480px;
+    }
+}
+
+@media screen and (max-width: 1850px) {
+    .marine {
+        left: 855px;
+    }
+    
+    .auto {
+        left: 1105px;
+    }
+    
+    .home {
+        left: 455px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .marine {
+        left: 840px;
+    }
+    
+    .auto {
+        left: 1080px;
+    }
+    
+    .home {
+        left: 430px;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .marine {
+        left: 815px;
+    }
+    
+    .auto {
+        left: 1055px;
+    }
+    
+    .home {
+        left: 405px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .marine {
+        left: 790px;
+    }
+    
+    .auto {
+        left: 1030px;
+    }
+    
+    .home {
+        left: 380px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .marine {
+        left: 765px;
+    }
+    
+    .auto {
+        left: 1005px;
+    }
+    
+    .home {
+        left: 355px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .marine {
+        left: 740px;
+    }
+    
+    .auto {
+        left: 980px;
+    }
+    
+    .home {
+        left: 330px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .marine {
+        left: 715px;
+    }
+    
+    .auto {
+        left: 955px;
+    }
+    
+    .home {
+        left: 305px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .marine {
+        left: 690px;
+    }
+    
+    .auto {
+        left: 930px;
+    }
+    
+    .home {
+        left: 280px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .marine {
+        left: 660px;
+    }
+    
+    .auto {
+        left: 900px;
+    }
+    
+    .home {
         left: 250px;
-        font-weight: 600;
-        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .marine {
-        position: absolute;
         left: 640px;
-        font-weight: 600;
-        font-size: 30px;
-        top: 2053px;
     
     }
     
     .auto {
-        position: absolute;
-        top: 2053px;
         left: 880px;
-        font-weight: 600;
-        font-size: 30px;
     }
     
     .home {
-        position: absolute;
-        top: 2053px;
         left: 230px;
-        font-weight: 600;
-        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 1350px) {
     .marine {
-        position: absolute;
         left: 615px;
-        font-weight: 600;
-        font-size: 30px;
-        top: 2053px;
     
     }
     
     .auto {
-        position: absolute;
-        top: 2053px;
         left: 855px;
-        font-weight: 600;
-        font-size: 30px;
     }
     
     .home {
-        position: absolute;
-        top: 2053px;
         left: 205px;
-        font-weight: 600;
-        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .marine {
-        position: absolute;
         left: 590px;
-        font-weight: 600;
-        font-size: 30px;
-        top: 2053px;
     
     }
     
     .auto {
-        position: absolute;
-        top: 2053px;
         left: 830px;
-        font-weight: 600;
-        font-size: 30px;
     }
     
     .home {
-        position: absolute;
-        top: 2053px;
         left: 180px;
-        font-weight: 600;
-        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 1240px) {
     .marine {
-        position: absolute;
         left: 560px;
-        font-weight: 600;
-        font-size: 30px;
-        top: 2053px;
     
     }
     
     .auto {
-        position: absolute;
-        top: 2053px;
         left: 800px;
-        font-weight: 600;
-        font-size: 30px;
     }
     
     .home {
-        position: absolute;
-        top: 2053px;
         left: 150px;
-        font-weight: 600;
-        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .marine {
-        position: absolute;
         left: 540px;
-        font-weight: 600;
-        font-size: 30px;
-        top: 2053px;
     
     }
     
     .auto {
-        position: absolute;
-        top: 2053px;
         left: 780px;
-        font-weight: 600;
-        font-size: 30px;
     }
     
     .home {
-        position: absolute;
-        top: 2053px;
         left: 130px;
-        font-weight: 600;
-        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 1150px) {
     .marine {
-        position: absolute;
         left: 520px;
-        font-weight: 600;
-        font-size: 30px;
-        top: 2053px;
     
     }
     
     .auto {
-        position: absolute;
-        top: 2053px;
         left: 760px;
-        font-weight: 600;
-        font-size: 30px;
     }
     
     .home {
-        position: absolute;
-        top: 2053px;
         left: 110px;
-        font-weight: 600;
-        font-size: 30px;
     }
 }
 
@@ -375,27 +430,16 @@
     }
 
     .marine {
-        position: absolute;
         /* left: 180px; */
-        font-weight: 600;
-        font-size: 30px;
         margin-top: 1px;
     }
     
     .auto {
-        position: absolute;
-        top: 2053px;
         margin-left: 480px;
-        font-weight: 600;
-        font-size: 30px;
     }
     
     .home {
-        position: absolute;
-        top: 2053px;
         margin-left: -370px;
-        font-weight: 600;
-        font-size: 30px;
     }
 }
 
