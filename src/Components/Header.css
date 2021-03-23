@@ -170,7 +170,7 @@
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 414px) {
     .leading {
         font-size: 45px;
         margin-left: 370px;
@@ -186,6 +186,23 @@
         margin-right: 160px;
     }
 }
+
+/* @media screen and (max-width: 380px) {
+    .leading {
+        font-size: 45px;
+        margin-left: 370px;
+        width: 300px;padding-top: 20px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .button-group {
+        padding-top: 20px;
+        margin-right: 160px;
+    }
+} */
 
 
 

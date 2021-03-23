@@ -267,7 +267,7 @@
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 414px) {
     .cs-div {
         min-width: 330px;
     }
