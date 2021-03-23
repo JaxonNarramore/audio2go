@@ -178,7 +178,66 @@
       transition: 250ms;
     }
   }
+  
+@media screen and (max-width: 1950px) {
+  .navbar-container {
+    margin-right: 500px;
+  }
+}
 
+@media screen and (max-width: 1900px) {
+  .navbar-container {
+    margin-right: 400px;
+  }
+}
+
+@media screen and (max-width: 1820px) {
+  .navbar-container {
+    margin-right: 300px;
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  .navbar-container {
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .navbar-container {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .navbar-container {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .navbar-container {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .navbar-container {
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .navbar-container {
+    margin-left: 400px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .navbar-container {
+    margin-left: 500px;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .logo {
