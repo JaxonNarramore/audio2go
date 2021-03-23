@@ -200,61 +200,62 @@
 
 @media screen and (max-width: 850px) {
     .cs-image {
-        display: none;
+        margin-left: 41px;
     }
 
     .customer-satisfaction {
         margin-left: 125px;
+        flex-direction: column;
+        padding-top: 50px;
     }
 
     .cs-div {
-        min-width: 450px;
+        width: 600px;
+        padding-top: 20px;
     }
     .i-image {
-        display: none;
+        margin-left: 41px;
     }
 
     .integrety {
         margin-left: 125px;
+        flex-direction: column;
+        padding-top: 50px;
     }
 
     .i-div {
-        min-width: 450px;
+        width: 600px;
     }
     .pfe-image {
-        display: none;
+        margin-left: 41px;
     }
 
     .plan-for-execution {
         margin-left: 125px;
+        flex-direction: column;
+        padding-top: 60px;
     }
 
     .pfe-div {
-        min-width: 450px;
+        padding-top: 20px;
+        width: 600px;
     }
     .e-image {
-        display: none;
+        margin-left: 41px;
     }
 
     .excellence {
         margin-left: 125px;
+        flex-direction: column;
+        padding-top: 50px;
     }
 
     .e-div {
-        min-width: 450px;
-    }
-}
-
-@media screen and (max-width: 780px) {
-    .e-div {
-        min-width: 400px;
+        width: 600px;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .e-div {
-        min-width: 400px;
-    }
 
     .value-statement {
         width: 400px;
@@ -267,18 +268,46 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 670px) {
     .cs-div {
-        min-width: 330px;
+        width: 400px;
     }
     .i-div {
-        min-width: 330px;
+        width: 400px;
     }
     .pfe-div {
-        min-width: 330px;
+        width: 400px;
     }
     .e-div {
-        min-width: 330px;
+        width: 400px;
+    }
+
+    .cs-image {
+        width: 100px;
+    }
+    .i-image {
+        width: 100px;
+    }
+    .pfe-image {
+        width: 100px;
+    }
+    .e-image {
+        width: 85px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .cs-div {
+        width: 330px;
+    }
+    .i-div {
+        width: 330px;
+    }
+    .pfe-div {
+        width: 330px;
+    }
+    .e-div {
+        width: 330px;
     }
 
     .value-statement {
