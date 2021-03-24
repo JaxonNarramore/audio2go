@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import './Services.css'
 
 const data = [
@@ -89,16 +88,3 @@ export default function Services() {
         </div>
     )
 }
-
-
-
-{/* <div className="img">
-{toggle === key ? (
-    <>
-        <img src={img} key={key} className="photo" />
-        <img src={img2} key={key} className="photo" />
-        <img src={img3} key={key} className="photo" />
-        <img src={img4} key={key} className="photo" />
-    </>
-) : null}
-</div> */}

@@ -10,7 +10,6 @@ const items = [
     <img src='Images/1.jpg' className="sliderimg" onDragStart={handleDragStart} />,
     <img src='Images/2.jpg' className="sliderimg" onDragStart={handleDragStart} />,
     <img src='Images/3.jpg' className="sliderimg" onDragStart={handleDragStart} />,
-    // <img src='Images/4.jpg' className="sliderimg" onDragStart={handleDragStart} />,
     <img src='Images/5.jpg' className="sliderimg" onDragStart={handleDragStart} />,
     <img src='Images/6.jpg' className="sliderimg" onDragStart={handleDragStart} />
 ]
@@ -53,46 +52,3 @@ export default function RecentInstalls() {
         </div>
     )
 }
-
-{/* <div className='carousel'>
-        <AliceCarousel
-            duration={400}
-            autoPlay={true}
-            startIndex={1}
-            fadeOutAnimation={true}
-            mouseDragEnabled={true}
-            playButtonEnabled={true}
-            responsive={responsive}
-            autoPlayInterval={2000}
-            autoPlayDirection="rtl"
-            autoPlayActionDisabled={true}
-            mouseTracking
-            infinite
-            autoPlay
-            items={items}
-            paddingLeft={93}
-            paddingRight={30}>
-        </AliceCarousel>
-    </div> */}
-
-
-// const handleDragStart = (e) => e.preventDefault();
-
-// const items = [
-//     <img src='Images/1.jpeg' className="sliderimg" onDragStart={handleDragStart} />,
-//     <img src='Images/2.jpeg' className="sliderimg" onDragStart={handleDragStart} />,
-//     <img src='Images/3.jpeg' className="sliderimg" onDragStart={handleDragStart} />,
-//     <img src='Images/4.jpeg' className="sliderimg" onDragStart={handleDragStart} />,
-//     <img src='Images/5.jpeg' className="sliderimg" onDragStart={handleDragStart} />
-// ]
-
-// export default function RecentInstalls() {
-//     return (
-//         <div className='ri-container'>
-//             <p>Recent Installs</p>
-//             <div className='carousel'>
-//                 <AliceCarousel autoPlay autoPlayInterval="3000" infinite mouseTracking items={items} />
-//             </div>
-//         </div>
-//     )
-// }

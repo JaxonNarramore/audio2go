@@ -1,7 +1,6 @@
 import React from 'react'
 import './Contact.css'
 import { SiInstagram } from 'react-icons/si';
-import { GrFacebook } from 'react-icons/gr';
 import { AiOutlineFacebook } from 'react-icons/ai';
 import { Link, animateScroll as scroll } from "react-scroll";
 

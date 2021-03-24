@@ -6,14 +6,11 @@ import Contact from './Contact'
 import Brands from './Brands'
 import Services from './Services'
 import RecentInstalls from './RecentInstalls'
-import Quote from './Quote'
-
 export default function Home() {
     return (
         <div>
             <Nav />
             <Header />
-            {/* <Quote /> */}
             <Values />
             <Services />
             <RecentInstalls />

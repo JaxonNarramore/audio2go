@@ -168,12 +168,6 @@
     -webkit-transition:.5s;
     transition:.5s;
 }
-@media screen and (max-width: 1400px) {
-
-}
-
-@media screen and (max-width: 1240px) {
-}
 
 @media screen and (max-width: 1175px) {
     .contact-container {
@@ -184,14 +178,6 @@
     .contact {
         padding-top: 80px;
     }
-}
-
-@media screen and (max-width: 1060px) {
-
-}
-
-@media screen and (max-width: 950px) {
-
 }
 
 @media screen and (max-width: 870px) {
@@ -211,20 +197,4 @@
     .about {
         padding-top: 40px;
     }
-}
-
-@media screen and (max-width: 850px) {
-
-}
-
-@media screen and (max-width: 780px) {
-
-}
-
-@media screen and (max-width: 700px) {
-
-}
-
-@media screen and (max-width: 380px) {
-
 }
