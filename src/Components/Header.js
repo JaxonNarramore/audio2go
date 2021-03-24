@@ -9,7 +9,7 @@ export default function Header() {
                 <p className='leading'>The Leading Mobile Electronics Installation Specialists</p>
                 <div className='button-group'>
                     <div className='button-div'>
-                        <Link id='buttonid' to='services' activeClass="active" spy={true} smooth={true} offset={-160} duration={100}>
+                        <Link id='buttonid' to='services' activeClass="active" spy={true} smooth={true} offset={-100} duration={100}>
                             <button type="button" class="btn btn-outline-light">Our Services</button>
                         </Link>
                     </div>

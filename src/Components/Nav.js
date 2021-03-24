@@ -37,22 +37,22 @@ function Nav() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='values' activeClass="active" spy={true} smooth={true} offset={-90} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='values' activeClass="active" spy={true} smooth={true} offset={10} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Values
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='services' activeClass="active" spy={true} smooth={true} offset={-155} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='services' activeClass="active" spy={true} smooth={true} offset={-115} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Servcies
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='installs' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='installs' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Installs
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='brands' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='brands' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Brands
                             </Link>
                         </li>
@@ -62,7 +62,7 @@ function Nav() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='contact' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='contact' activeClass="active" spy={true} smooth={true} offset={200} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Contact
                             </Link>
                         </li>

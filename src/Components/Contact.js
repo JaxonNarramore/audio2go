@@ -42,10 +42,10 @@ export default function Contact() {
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
                             Home
                         </Link>
-                        <Link to='values' activeClass="active" spy={true} smooth={true} offset={-85} duration={100} className='contact-links'>
+                        <Link to='values' activeClass="active" spy={true} smooth={true} offset={1} duration={100} className='contact-links'>
                             Our Values
                         </Link>
-                        <Link to='services' activeClass="active" spy={true} smooth={true} offset={-160} duration={100} className='contact-links'>
+                        <Link to='services' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
                             Our Services
                         </Link>
                         <Link to='installs' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='contact-links'>
