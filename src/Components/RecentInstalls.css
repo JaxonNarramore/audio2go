@@ -89,6 +89,10 @@
         width: 270px;
         margin-left: -20px;
     }
+
+    .ri {
+        font-size: 45px;
+    }
 }
 
 @media screen and (max-width: 375px) {

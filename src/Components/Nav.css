@@ -235,6 +235,16 @@
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .nav-num {
+    padding-left: 250px;
+  }
+
+  .navbar-container {
+    margin-left: 400px;
+  }
+}
+
 @media screen and (max-width: 1420px) {
   .nav-num {
     padding-left: 200px;

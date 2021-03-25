@@ -124,4 +124,8 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .os {
+        font-size: 45px;
+    }
 }
