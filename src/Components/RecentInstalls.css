@@ -42,7 +42,7 @@
     .sliderimg{
         height: 500px;
         width: 440px;
-        margin-left: -25px;
+        margin-left: -50px;
         padding-left: 20px;
     }
 }
@@ -51,6 +51,7 @@
     .sliderimg{
         height: 400px;
         width: 350px;
+        margin-left: -5px;
     }
 }
 
@@ -58,6 +59,7 @@
     .sliderimg{
         height: 370px;
         width: 320px;
+        margin-left: -15px;
     }
 }
 
@@ -72,6 +74,7 @@
     .sliderimg{
         height: 350px;
         width: 270px;
+        margin-left: -9px;
     }
 }
 
@@ -87,7 +90,7 @@
     .sliderimg{
         height: 350px;
         width: 270px;
-        margin-left: -20px;
+        margin-left: -30px;
     }
 
     .ri {
@@ -99,14 +102,14 @@
     .sliderimg{
         height: 350px;
         width: 270px;
-        margin-left: -32px;
+        margin-left: -50px;
     }
 }
 
 @media screen and (max-width: 360px) {
     .sliderimg{
-        height: 350px;
-        width: 270px;
-        margin-left: -32px;
+        height: 330px;
+        width: 280px;
+        margin-left: -50px;
     }
 }
