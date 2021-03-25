@@ -44,6 +44,10 @@
     .top-brands {
         font-size: 38px;
     }
+
+    .grid-image {
+        width: 240px;
+    }
 }
 
 @media screen and (max-width: 870px) {
@@ -84,5 +88,9 @@
         width: 360px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .grid-item {
+        height: 140px;
     }
 }
