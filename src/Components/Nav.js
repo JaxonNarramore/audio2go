@@ -65,6 +65,9 @@ function Nav() {
                                 Contact
                             </Link>
                         </li>
+                        <li className='nav-num nav-item'>
+                            <a className='nav-links' href="tel:+5125882677">512-588-2677</a>
+                        </li>
                     </ul>
                     {/* {button && <QuoteButton className='getaquote'>Resume</QuoteButton>} */}
                 </div>
