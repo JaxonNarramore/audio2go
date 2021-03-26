@@ -192,7 +192,7 @@
   
 @media screen and (max-width: 1950px) {
   .navbar-container {
-    margin-left: 500px;
+    margin-left: 380px;
   }
 
   .nav-num {
@@ -201,10 +201,6 @@
 }
 
 @media screen and (max-width: 1900px) {
-  .navbar-container {
-    margin-left: 550px;
-  }
-
   .nav-num {
     padding-left: 700px;
   }
@@ -239,10 +235,6 @@
   .nav-num {
     padding-left: 250px;
   }
-
-  .navbar-container {
-    margin-left: 550px;
-  }
 }
 
 @media screen and (max-width: 1420px) {
@@ -259,24 +251,19 @@
 
 @media screen and (max-width: 1220px) {
   .navbar-container {
-    margin-left: 590px;
+    margin-left: 35vw;
   }
 
   .nav-num {
     font-size: 35px;
     padding-top: 2px;
-    margin-left: -10px;
+    margin-left: -50px;
   }
 }
 
 @media screen and (max-width: 1120px) {
-  .navbar-container {
-    margin-left: 580px;
-  }
-
   .nav-num {
-    font-size: 30px;
-    margin-left: -65px;
+    display: none;
   }
 }
 
