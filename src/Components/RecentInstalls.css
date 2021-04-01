@@ -38,6 +38,15 @@
     }
 }
 
+@media screen and (max-width: 1455px) {
+    .sliderimg{
+        height: 500px;
+        width: 440px;
+        margin-left: -33px;
+        padding-left: 20px;
+    }
+}
+
 @media screen and (max-width: 1440px) {
     .sliderimg{
         height: 500px;
