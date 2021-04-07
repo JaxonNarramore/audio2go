@@ -13,20 +13,15 @@
     display: flex;
 }
 
-.a2g {
-    font-size: 160px;
-    text-align: center;
-}
-
 .a2g-container {
-    padding-top: 100px;
-    margin-left: 155px;
+    margin-right: 140px;
     color: whitesmoke;
-    width: 1200px;
+    display: flex;
+    margin-top: 100px;
 }
 
 .leading {
-    font-size: 77px;
+    font-size: 70px;
     text-align: center;
     font-weight: 700;
 }
@@ -46,7 +41,7 @@
     font-size: 25px;
 }
 
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
     .leading {
         font-size: 73px;
         margin-right: 70px;
@@ -185,4 +180,4 @@
         padding-top: 20px;
         margin-right: 160px;
     }
-}
+} */

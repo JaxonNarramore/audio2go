@@ -1,5 +1,5 @@
 .quote-form {
-    width: 500px;
+    /* width: 500px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .input {
-    border-radius:7px;
+    border-radius: 7px;
     box-sizing: border-box;
 }
 
@@ -42,11 +42,11 @@ input, label {
 
 .rasdq {
     text-align: center;
+    justify-content: center;
 }
 
 .quote-div {
-    position: absolute;
-    top: 180px;
-    right: 15px;
+    /* top: 180px; */
+    /* margin-left: 900px; */
     color: white;
 }
