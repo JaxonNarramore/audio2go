@@ -13,15 +13,20 @@
     display: flex;
 }
 
+.a2g {
+    font-size: 160px;
+    text-align: center;
+}
+
 .a2g-container {
-    margin-right: 140px;
+    padding-top: 100px;
+    margin-left: 155px;
     color: whitesmoke;
-    display: flex;
-    margin-top: 100px;
+    width: 1200px;
 }
 
 .leading {
-    font-size: 70px;
+    font-size: 77px;
     text-align: center;
     font-weight: 700;
 }
@@ -41,7 +46,7 @@
     font-size: 25px;
 }
 
-/* @media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
     .leading {
         font-size: 73px;
         margin-right: 70px;
@@ -165,6 +170,21 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .leading {
+        padding-top: 20px;
+        line-height: 80px;
+    }
+
+    .button-div {
+        padding-top: 100px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .leading {
         font-size: 45px;
@@ -180,4 +200,4 @@
         padding-top: 20px;
         margin-right: 160px;
     }
-} */
+}
