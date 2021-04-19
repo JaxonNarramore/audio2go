@@ -18,6 +18,9 @@
     background-color: rgba(1,1,1,255);
     padding-top: 40px;
     padding-bottom: 40px;
+    position: absolute;
+    color: white;
+    width: 100%;
 }
 
 .icons {
@@ -59,12 +62,6 @@
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
-}
-
-.whole-contact {
-    position: absolute;
-    color: white;
-    width: 100%;
 }
 
 .explore {
