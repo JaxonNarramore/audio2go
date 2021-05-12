@@ -31,7 +31,7 @@ export default function Values() {
                         <div className='integrety'>
                             <img className='i-image' src="https://static.wixstatic.com/media/fec686_b5d5b0cb25ba4bf399952b718ae1e23b~mv2.png/v1/fill/w_200,h_188,al_c,q_85,usm_0.66_1.00_0.01/passion.webp" alt="" />
                             <p className='i-div'>
-                                We will maintain integrity. No matter the circumstance, from overselling a system to taking shortcuts on the install. We treat every install like it’s our own and treat customers like family.
+                                We will maintain integrity. No matter the circumstance, from overselling a system to taking shortcuts on the install. We treat every install like it’s our own and treat every customer like family.
                             </p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function Values() {
                         <div className='plan-for-execution'>
                             <img className='pfe-image' src="https://static.wixstatic.com/media/fec686_c736adb6c3c7485a84d383a4f3471e8a~mv2.png/v1/fill/w_184,h_200,al_c,q_85,usm_0.66_1.00_0.01/creativity.webp" alt="" />
                             <p className='pfe-div'>
-                                We will take the time to asses and optimize each and every system, We will always find a solution for any issue.
+                                We take the time to asses and optimize each and every system. We can find a solution for any issue.
                             </p>
                         </div>
                     </div>
