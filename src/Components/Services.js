@@ -44,7 +44,7 @@ const data = [
 ];
 
 export default function Services() {
-    const [toggle, setToggle] = useState('1')
+    const [toggle, setToggle] = useState('3')
     return (
         <div id='services' className='services-container'>
             <p className='os'>Our Services</p>
