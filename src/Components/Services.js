@@ -65,19 +65,19 @@ export default function Services() {
                         {toggle === key ? (
                             <div className='images'>
                                 <div>
-                                    <img src={img} key={key} className="photo" />
+                                    <img src={img} key={key} className="photo" alt="TV Mounting" />
                                     <p className='text'>{text}</p>
                                 </div>
                                 <div>
-                                    <img src={img2} key={key} className="photo" />
+                                    <img src={img2} key={key} className="photo" alt="Radio Install" />
                                     <p className='text'>{text2}</p>
                                 </div>
                                 <div>
-                                    <img src={img3} key={key} className="photo" />
+                                    <img src={img3} key={key} className="photo" alt="Marine Audio" />
                                     <p className='text'>{text3}</p>
                                 </div>
                                 <div>
-                                    <img src={img4} key={key} className="photo" />
+                                    <img src={img4} key={key} className="photo" alt="Security Camera Installation" />
                                     <p className='text'>{text4}</p>
                                 </div>
                             </div>

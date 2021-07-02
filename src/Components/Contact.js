@@ -11,7 +11,7 @@ export default function Contact() {
                 <div class="contact-container">
                     <div className='footer-logo'>
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-logo'>
-                            <img className='footLogo' src="Images/logo.png" alt="" />
+                            <img className='footLogo' src="Images/logo.png" alt="Audio 2 Go Logo" />
                         </Link>
                         <p className='fill-out-form'><Link className='fotf' to='quotes' activeClass="active" spy={true} smooth={true} offset={-75} duration={100} >Fill out the form</Link> above or <a className='number-link' href="tel:+5125882677">give us a call</a> for a free same day quote!</p>
                         <div className='icons'>
@@ -25,7 +25,7 @@ export default function Contact() {
                     </div>
                     <div className='about'>
                         <p className='contact-head'>About </p>
-                        <p className='abt-div'>We are a mobile audio installation service that specializes in anything with a 12-volt system. </p>
+                        <p className='abt-div'>We are a <h1 className='abt-div'>mobile car audio installation</h1> service that specializes in anything with a 12-volt system. </p>
                     </div>
                     <div className='contact'>
                         <p className='contact-head'>Contact</p>
