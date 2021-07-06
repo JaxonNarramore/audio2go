@@ -35,21 +35,21 @@ export default function Values() {
                             </p>
                         </div>
                     </div>
-                    <div class="pfe-container">
-                        <p className='pfe'>Plan for Execution</p>
-                        <div className='plan-for-execution'>
-                            <img className='pfe-image' src="https://static.wixstatic.com/media/fec686_c736adb6c3c7485a84d383a4f3471e8a~mv2.png/v1/fill/w_184,h_200,al_c,q_85,usm_0.66_1.00_0.01/creativity.webp" alt="Plan for Execution" />
-                            <p className='pfe-div'>
-                                We take the time to asses and optimize each and every system. We can find a solution for any issue.
-                            </p>
-                        </div>
-                    </div>
                     <div className='e-container'>
                         <p className='e'>Excellence</p>
                         <div className='excellence'>
                             <img className='e-image' src="https://static.wixstatic.com/media/fec686_b47b61dd7f1549c0ad5f0f432b30eac9~mv2.png/v1/fill/w_140,h_200,al_c,q_85,usm_0.66_1.00_0.01/quality-removebg-preview.webp" alt="Excellence" />
                             <p className='e-div'>
                                 We take pride in producing the highest quality installs, using only the best materials and products.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pfe-container">
+                        <p className='pfe'>Plan for Execution</p>
+                        <div className='plan-for-execution'>
+                            <img className='pfe-image' src="https://static.wixstatic.com/media/fec686_c736adb6c3c7485a84d383a4f3471e8a~mv2.png/v1/fill/w_184,h_200,al_c,q_85,usm_0.66_1.00_0.01/creativity.webp" alt="Plan for Execution" />
+                            <p className='pfe-div'>
+                                We take the time to asses and optimize each and every system. We can find a solution for any issue.
                             </p>
                         </div>
                     </div>
